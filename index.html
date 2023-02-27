@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/mobile.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lato:wght@300&family=PT+Serif&family=Poppins:wght@300&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Serif&family=Poppins:wght@300&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbarsection -->
+
+    <div class="nav-container">
+      <div class="uppernav">
+        <div class="nav-email">
+          <ion-icon name="mail"></ion-icon> demogss@gmail.com
+          <ion-icon name="call"></ion-icon>7879467822
+        </div>
+        <div class="nav-contact">
+          <p>Follow us on:</p>
+          <span><ion-icon name="logo-instagram"></ion-icon></span>
+          <span><ion-icon name="logo-youtube"></ion-icon></span>
+          <span><ion-icon name="logo-facebook"></ion-icon></span>
+          <span><ion-icon name="logo-linkedin"></ion-icon></span>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="lowernav">
+        <div class="hamburger">
+          <i class="menuIcon fa fa-bars"></i>
+          <i class="closeIcon fa fa-times" style="display: none;"></i>
+        </div>
+        <ul class="lower-nav-images">
+          <li><img src="Images/Vector.png" /></li>
+          <li>
+            <img src="Images/global.png" class="global-image" />
+          </li>
+          <li>
+            <input
+              type="text"
+              id="tags"
+              placeholder="Search"
+              class="search-box"
+            />
+          </li>
+        </ul>
+
+        <ul class="lowernav-text menu">
+          <li class="menuItem">
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Training</button>
+              <div id="myDropdown" class="dropdown-content">
+                <div class="training-dropdown">
+                  <div>
+                    <span class="dropdown-heading">Governance</span>
+                    <p>COBIT</p>
+                    <p>ISO/IEC 38500</p>
+                    <p>ISO/IEC 38500</p>
+                  </div>
+                  <div>
+                    <span class="dropdown-heading">Continuity</span>
+                    <p>BCM ISO 22301</p>
+                    <p>Disaster Recovery</p>
+                    <p>Organization Resilience - ISO 22316</p>
+                  </div>
+                  <div>
+                    <span class="dropdown-heading">Auditing </span>
+                    <p>Cybersecurity Audit</p>
+                    <p>CISA</p>
+                    <p>Internal Auditor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="menuItem">Consulting</li>
+          <li class="menuItem">Solutions</li>
+          <li class="menuItem">WebStore</li>
+          <li class="menuItem">Resources</li>
+          <li class="menuItem">About Us</li>
+
+          <li class="menuItem">
+            <ion-icon
+              name="cart"
+              style="height: 6vh; width: 5vh; margin-top: 5%"
+            ></ion-icon>
+          </li>
+          <li class="menuItem">
+            <img
+              src="Images/klogo.jpg"
+              style="
+                border-radius: 50%;
+                height: 6vh;
+                width: 9vh;
+                margin-top: 3%;
+                border: 2px solid black;
+              "
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- body section -->
+
+    <div class="body-container">
+      <div class="body">
+        <div class="content-container">
+          <div class="content">
+            <p>
+              Improve Your<span> Business Performance</span> by empowering your
+              people.
+            </p>
+          </div>
+          <div class="upperbuttoncontent">
+            <p>
+              Get curated courses and dedicated consultation for your employees
+              at one place.
+            </p>
+          </div>
+          <div class="button">
+            <a class="btn btn-full" href="#">View Courses</a>
+            <a class="btn btn-ghost" href="#">How it Works?</a>
+          </div>
+          <div class="article-container">
+            <div class="article">
+              <p>
+                Are you ready for VUGA Environment?
+                <button>View Article</button>
+              </p>
+              <p>Why IT Capability Assesement?<button>View Article</button></p>
+            </div>
+            <div class="business-growth">
+              <img
+                src="Images/growth.jpg"
+                style="height: 60%; width: 60%; border-radius: 20px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="person">
+          <img src="Images/person.png" style="height: 100%; width: 90%" />
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- services section -->
+    <div class="relative-to-service"></div>
+    <div class="service-container">
+      <p class="heading">Our Services</p>
+      <p class="sub-heading">Making you industry ready is our responsibility</p>
+      <div class="services-provided-grid">
+        <div class="services-provided">
+          <div class="services-flexbox">
+            <img src="Images/training1.jpg" class="services-images" />
+            <div class="services-heading-container">
+              <p class="services-heading">Training</p>
+              <span
+                >We help you to gain the knowledge, skills and practical
+                application of the subjects. Check certification courses and
+                other programs....</span
+              >
+              <div class="service-button"><p>View Courses</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-provided">
+          <div class="services-flexbox">
+            <img src="Images/consulting.jpg" class="services-images" />
+            <div class="services-heading-container">
+              <p class="services-heading">Consulting</p>
+              <span
+                >We help you to gain the knowledge, skills and practical
+                application of the subjects. Check certification courses and
+                other programs....</span
+              >
+              <div class="service-button"><p>View Services</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-provided-grid">
+        <div class="services-provided">
+          <div class="services-flexbox">
+            <img src="Images/web.jpg" class="services-images" />
+            <div class="services-heading-container">
+              <p class="services-heading">Web</p>
+              <span
+                >We help you to gain the knowledge, skills and practical
+                application of the subjects. Check certification courses and
+                other programs....</span
+              >
+              <div class="service-button"><p>View Products</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-provided">
+          <div class="services-flexbox">
+            <img src="Images/solution.jpg" class="services-images" />
+            <div class="services-heading-container">
+              <p class="services-heading">Solutions</p>
+              <span
+                >We help you to gain the knowledge, skills and practical
+                application of the subjects. Check certification courses and
+                other programs....</span
+              >
+              <div class="service-button"><p>View Solutions</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- aboutus section -->
+    <div class="about-us">
+      <p class="heading">About Us</p>
+      <p class="sub-heading">A brief about our vision, mission & us.</p>
+      <div class="about-us-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae
+          sed eget ut turpis eget feugiat aenean viverra. Sodales in urna nec,
+          amet molestie varius. Vel auctor vitae ultrices eget senectus. Nisi,
+          mattis lectus mi tellus quis ornare. Arcu tristique nulla duis eu nunc
+          molestie. Donec dictumst sapien enim nec nibh sed arcu. Quis pretium
+          ultrices velit non euismod. Amet at consectetur at tortor pharetra,
+          nisl donec quam cras. Aliquet dolor etiam commodo nisl.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae
+          sed eget ut turpis eget feugiat aenean viverra. Sodales in urna nec,
+          amet molestie varius. Vel auctor vitae ultrices eget senectus. Nisi,
+          mattis lectus mi tellus quis ornare. Arcu tristique nulla duis eu nunc
+          molestie. Donec dictumst sapien enim nec nibh sed arcu. Quis pretium
+          ultrices velit non euismod. Amet at consectetur at tortor pharetra,
+          nisl donec quam cras. Aliquet dolor etiam commodo nisl.
+        </p>
+      </div>
+    </div>
+
+    <!-- whyus section -->
+
+    <div class="whyuscontainer">
+      <div class="whyusheading">
+        <p class="heading">Why Us?</p>
+        <p class="sub-heading">Global Success Systems Advantage</p>
+      </div>
+      <div class="whyuscontent-container">
+        <div class="image">
+          <img src="Images/whyusimage.png" />
+        </div>
+        <div class="whyustext-container">
+          <div class="why-us-text">
+            <div class="whyimage1container">
+              <img src="Images/whyimage1.png" />
+            </div>
+            <div>
+              <p class="course-heading">Real World Profressionals</p>
+              <p class="course-content">
+                Our Trainers, Consultants and Auditors are with an average 15+
+                years of practical and global experience.
+              </p>
+              <p class="course-button">View our team</p>
+            </div>
+          </div>
+          <div class="why-us-text">
+            <div>
+              <img src="Images/whyimage2.png" />
+            </div>
+            <div>
+              <p class="course-heading">Accredited Courses</p>
+              <p class="course-content">
+                Our courses and exams are accredited by global Certification
+                Bodies and experts.
+              </p>
+              <p class="course-button">Our Accreditations</p>
+            </div>
+          </div>
+          <div class="why-us-text">
+            <div>
+              <img src="Images/whyimage2.png" />
+            </div>
+            <div class="course-heading-container">
+              <p class="course-heading">Accredited Courses</p>
+              <p class="course-content">
+                Our courses and exams are accredited by global Certification
+                Bodies and experts.
+              </p>
+              <p class="course-button">Our Accreditations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- latest news section -->
+    <div class="latestnews-container">
+      <div class="newsheading">
+        <p class="heading">Latest News</p>
+      </div>
+      <div class="owl-carousel owl-one owl-theme">
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Images/Rectangle 36.png" class="card-img-top" />
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet non
+              sapien auctor.
+            </p>
+            <p class="card-light-text">By Himanshu , 03/02/2022</p>
+            <button class="card-btn">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div id="button"><button class="carhousel-button">View More</button></div>
+    </div>
+
+
+
+    <!-- 
+    customer-reviews section -->
+
+    <div class="customer-reviews">
+      <div class="customerheading">
+        <p class="heading">What our customer say?</p>
+        <p class="sub-heading">
+          We belive in 100% client satisfaction and here is what they say about
+          us.
+        </p>
+      </div>
+      <div class="carousel2container">
+        <div class="owl-carousel owl-two owl-theme">
+          <div class="item-car2">
+            <img src="Images/women.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/women.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/women.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/klogo.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/women.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/klogo.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/women.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+          <div class="item-car2">
+            <img src="Images/klogo.jpg" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text">Lorem, ipsum.</p>
+              <p class="card-light-text">Lorem</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque aliquam maxime odio dignissimos tenetur non.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- client section -->
+
+    <div class="client-section-container">
+      <div class="client-heading">
+        <p class="heading">Our Major Clients</p>
+        <p class="sub-heading">Our esteemed clients around the world.</p>
+      </div>
+      <div class="clientsection">
+        <div>
+          <img src="Images/image 2.png" />
+        </div>
+        <div>
+          <img src="Images/image 3.png" />
+        </div>
+        <div>
+          <img src="Images/image 4.png" />
+        </div>
+        <div>
+          <img src="Images/image 5.png" />
+        </div>
+      </div>
+    </div>
+
+   
+  </body>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+<!-- owl carousel first -->
+  <script>
+    $(".owl-two").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      singleItem: true,
+      autoWidth: false,
+
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 2,
+        },
+      },
+    });
+
+    // owlCarousel2
+    $(".owl-one").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      singleItem: true,
+      autoWidth: false,
+      navText: [
+        "<i class='fa fa-chevron-left'></i>",
+        "<i class='fa fa-chevron-right'></i>",
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 2,
+        },
+        1000: {
+          items: 3,
+        },
+      },
+    });
+  </script>
+  -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <!-- search autocomplete -->
+  <script>
+    $(function () {
+      var availableTags = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "BASIC",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme",
+      ];
+      $("#tags").autocomplete({
+        source: availableTags,
+      });
+    });
+  </script>
+
+<!-- dropdown -->
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
+        }
+      }
+    };
+  </script>
+
+
+
+  <!-- Hamburger -->
+  <script>
+    const menu = document.querySelector(".menu");
+    const menuItems = document.querySelectorAll(".menuItem");
+    const hamburger = document.querySelector(".hamburger");
+    const closeIcon = document.querySelector(".closeIcon");
+    const menuIcon = document.querySelector(".menuIcon");
+
+    function toggleMenu() {
+      if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+      } else {
+        menu.classList.add("showMenu");
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+      }
+    }
+
+    hamburger.addEventListener("click", toggleMenu);
+    
+
+  </script>
+
+
+
+</html>
